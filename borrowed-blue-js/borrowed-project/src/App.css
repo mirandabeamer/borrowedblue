@@ -1,0 +1,94 @@
+.App {
+    text-align: center;
+    background-color:#dfd6c6;
+  }
+
+.addnewbooks {
+    text-align: center;
+}
+
+.bg-image .mask {
+    background-color: rgba(98, 71, 53, 0.5)
+}
+  
+body, .list-group-item {
+    background-color:#dfd6c6;
+}
+
+.subtitle.brandname {
+    text-decoration: none;
+    text-align: center;
+    padding:30px 10px 10px 10px;
+}
+
+.list-group-item.active, 
+.navbar,
+.nav-item a, 
+.navbar-nav .nav-link.active, 
+.navbar-brand,
+a.btn-outline-dark:hover,
+a.btn-outline-light:hover  {
+    background-color: #624735;
+    border-color:#624735;
+    color:white;
+}
+
+a.btn-outline-dark {
+    border-color:#624735;
+}
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .brandname {
+    font-family: "Cinzel", serif;
+  }
+  
+  .bg-image {
+    height: 400px;
+  }
+  
+  .mask {
+    background-color: rgba(0, 0, 0, 0.6);
+    height:250px
+  }
+  
+  .subtitle {
+    padding:30px 10px;
+    text-decoration:underline;
+    font-size:30px
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
